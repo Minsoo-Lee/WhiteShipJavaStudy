@@ -41,4 +41,8 @@ public class Stack {
     public void clearStack() {
         index = -1;
     }
+
+    public int getSize() {
+        return index + 1;
+    }
 }
