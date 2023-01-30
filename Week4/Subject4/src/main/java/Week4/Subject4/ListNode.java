@@ -22,6 +22,7 @@ public class ListNode {
         next = null;
     }
 
+
     public static ListNode add(ListNode head, ListNode nodeToAdd, int position) {
         if (head == null) {
             head = nodeToAdd;
